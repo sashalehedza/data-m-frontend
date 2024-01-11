@@ -1,0 +1,147 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #333;
+}
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff; /* Set the text color to white for all links */
+  text-decoration: none; /* Remove default underline */
+}
+
+nav a:hover {
+  background-color: #66b3ff; /* Light blue color on hover */
+  color: #fff; /* Set the text color to white on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #6299c9;
+  color: white;
+}
+
+button {
+  background-color: #008cba;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00506b;
+}
+
+/* styles.css */
+/* ... (existing styles) */
+
+/* Button styles */
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Green Update button */
+button.update {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Red Delete button */
+button.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Light gray Add button */
+button.add {
+  background-color: rgb(96, 122, 199);
+  color: #fff;
+}
+
+/* ... (existing styles) */
+
+input,
+select {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style for the "Toggle Sort Order" button */
+button.toggle-sort {
+  background-color: #008cba;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button.toggle-sort:hover {
+  background-color: #00506b;
+}
+
+.button-spacing {
+  margin: 4px; /* Adjust the margin as needed */
+}
+
+@media (max-width: 600px) {
+  .user-table-container {
+    overflow-x: auto;
+  }
+
+  .user-table {
+    width: 100%;
+    max-width: none;
+  }
+
+  .user-table th,
+  .user-table td {
+    white-space: nowrap;
+  }
+}
